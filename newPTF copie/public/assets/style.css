@@ -1,0 +1,354 @@
+*,*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    color: white;
+    overflow-x: hidden;
+}
+.dropdown-menu {
+    position: fixed;
+    top: 5px;
+    left: 45px;
+    display: inline-block;
+    color: white;
+}
+  
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 45px;
+    top: 5px;
+    text-decoration: none;
+    border-bottom: 2px solid yellow;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+    color: white;
+    top: 40px;
+}
+  
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: transparent;
+}
+  
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
+
+#h1 {
+    margin-top: 100px; /* ajuster selon vos besoins */
+    position: fixed;
+    width: 268px;
+    height: 114px;
+    left: 229px;
+    top: 130px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 73px;
+    line-height: 78.34%;
+    /* or 57px */
+    
+    
+    color: #FFFFFF;
+}
+
+#h8{
+    color: white;
+    position: absolute;
+width: 607px;
+height: 135px;
+left: 638px;
+top: 148vh;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 94.84%;   
+}
+
+.line8{
+    position: absolute;
+    width: 250px;
+    left: 78vh;
+    top: 154vh;
+    border: 3px solid #FFE600;
+}
+#h9{
+    color: white;
+    position: absolute;
+width: 707px;
+height: 135px;
+left: 638px;
+top: 292vh;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 94.84%;
+    
+}
+.line9{
+    position: absolute;
+    width: 250px;
+    left: 78vh;
+    top: 298vh;
+    border: 3px solid #FFE600;
+}
+#h10{
+    color: white;
+    position: absolute;
+width: 607px;
+height: 135px;
+left: 638px;
+top: 436vh;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 94.84%;
+}
+.line10{
+    position: absolute;
+    width: 250px;
+    height: 0px;
+    left: 78vh;
+    top: 442vh;
+    border: 3px solid #FFE600;
+}
+#h4 {
+    margin-top: 20px; /* ajuster selon vos besoins */
+    position: fixed;
+    width: 268px;
+    height: 114px;
+    left: 229px;
+    top: 330px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 78.34%;
+    /* or 57px */
+    
+    
+    color: #FFFFFF;
+}
+#h7{
+    position: fixed;
+    width: 176px;
+    height: 76px;
+    left: 20px;
+    top: 650px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78.34%;
+    color: #FFFFFF;
+    text-shadow: 13px 10px 19px rgba(0, 0, 0, 0.5);
+    transform: rotate(-90deg);
+}
+#h6{
+    position: absolute;
+width: 393px;
+height: 75px;
+left: 1000px;
+top: 250px;
+transform: rotate(-90deg);
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 78.34%;
+/* or 75px */
+
+
+color: #14243A;
+}
+
+#h2{
+    position: absolute;
+    width: 393px;
+    height: 75px;
+    left: 1273px;
+    top: 230vh;
+    transform: rotate(-90deg);
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 78.34%;
+    /* or 75px */
+    
+    
+    color: #14243A;
+}
+
+#h3{
+    position: absolute;
+width: 607px;
+height: 135px;
+left: 638px;
+top: 390px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 38px;
+line-height: 94.84%;
+/* or 46px */
+color: #FFE600;
+}
+  
+.hidden-section {
+    display: none;
+}
+  
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+section {
+    margin: 100px 0; /* ajuster selon vos besoins */
+}
+
+
+
+.img{
+
+    max-width: 300px;
+    height: 200px;
+    border-radius: 5%;
+    display: block; /* Faire descendre comme un bloc */
+    margin: 120vh 60vh 0 auto; /* Marges haut/bas et gauche/droite égales, centrées horizontalement */
+    margin-bottom: 10px
+}
+
+.img2{
+   
+position: absolute;
+width: 280px;
+height: 500px;
+left: 166px;
+top: 342px;
+position: fixed;
+
+}
+.glass-form {
+ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 124px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+.glass-form h2 {
+    text-align: center;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.form-group input,
+.form-group textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+  
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+  
+button[type="submit"] {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    color: #222;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
+  
+button[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+p {
+    position: absolute;
+    width: 683px;
+    height: 697px;
+    left: 685px;
+    top: 511px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 107.84%;
+}
+
+.line5{
+    position: fixed;
+    width: 80px;
+    height: 0px;
+    left: 454px;
+    top: 250px;
+    border: 3px solid #FFE600;
+}
+
+#containerfm{
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+}
